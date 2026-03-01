@@ -13,7 +13,7 @@
 				"large": "skills/TrapMaster/b-trapmaster-large",
 				"scenarioBonus": "skills/TrapMaster/b-trapmaster-scenarioBonus"
 			},
-			"description": "{Basic Trap Master}\n\nTrap Master allows at the beginning of battle casts Spikes with spell power of 2.",
+			"description": "{Basic Trap Master}\n\nAt the start of combat, casts Spike Pit with spell power 2.",
 			"effects" : {
 				"mine":{
 				"type": "OPENING_BATTLE_SPELL",
@@ -29,7 +29,7 @@
 				"large": "skills/TrapMaster/a-trapmaster-large",
 				"scenarioBonus": "skills/TrapMaster/a-trapmaster-scenarioBonus"
 			},
-			"description": "{Advanced Trap Master\n\nTrap Master allows at the beginning of battle casts Spikes, Traps with spell power of 5.",
+			"description": "{Advanced Trap Master}\n\nAt the start of combat, casts Spike Pit and Quick Trap with spell power 5.",
 			"effects" : {
 				"mine":{
 				"type": "OPENING_BATTLE_SPELL",
@@ -55,7 +55,7 @@
 				"large": "skills/TrapMaster/e-trapmaster-large",
 				"scenarioBonus": "skills/TrapMaster/e-trapmaster-scenarioBonus"
 			},
-			"description": "{Expert Trap Master}\n\nTrap Master allows at the beginning of battle casts Spikes, Traps with spell power of 10.",
+			"description": "{Expert Trap Master}\n\nAt the start of combat, casts Spike Pit and Quick Trap with spell power 10.",
 			"effects" : {
 				"mine":{
 				"type": "OPENING_BATTLE_SPELL",
