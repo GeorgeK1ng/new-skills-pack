@@ -1,36 +1,39 @@
 {
 	"spiketrigger" : {
 		"targetType" : "CREATURE",
-		"type": "combat",
-		"name": "",
-		"school":
-		{
-			"air": false,
-			"earth": true,
-			"fire": false,
-			"water": false
+		"type" : "combat",
+		"name" : "",
+		"school" : {
+			"air" : false,
+			"earth" : true,
+			"fire" : false,
+			"water" : false
 		},
-		"level": 3,
-		"power": 10,
-		"gainChance": {},
+		"level" : 3,
+		"power" : 10,
+		"gainChance" : {},
 		"animation" : {
-			"hit" : ["spell/trapS/trapSR"]
+			"hit" : [
+				"spell/trapS/trapSR"
+			]
 		},
 		"sounds" : {
-		   "cast" : "SpikeAttack.wav"
+			"cast" : "SpikeAttack.wav"
 		},
 		"levels" : {
-			"base": {
+			"base" : {
 				"power" : 10,
 				"range" : "0",
 				"description" : "", //For validation
 				"cost" : 0, //For validation
 				"battleEffects" : {
 					"directDamage" : {
-						"type":"core:damage"
+						"type" : "core:damage"
 					}
 				},
-				"targetModifier":{"smart":false}
+				"targetModifier" : {
+					"smart" : false
+				}
 			},
 			"none" : {
 				"power" : 10
@@ -46,45 +49,47 @@
 			}
 		},
 		"flags" : {
-			"damage": true,
-			"negative": true,
-			"special": true
+			"damage" : true,
+			"negative" : true,
+			"special" : true
 		},
-		"targetCondition" : {
-		}
+		"targetCondition" : {}
 	},
 	"traptrigger" : {
 		"targetType" : "CREATURE",
-		"type": "combat",
-		"name": "",
-		"school":
-		{
-			"air": false,
-			"earth": true,
-			"fire": false,
-			"water": false
+		"type" : "combat",
+		"name" : "",
+		"school" : {
+			"air" : false,
+			"earth" : true,
+			"fire" : false,
+			"water" : false
 		},
-		"level": 3,
-		"power": 10,
-		"gainChance": {},
+		"level" : 3,
+		"power" : 10,
+		"gainChance" : {},
 		"animation" : {
-			"hit" : ["spell/trap/trapR"]
+			"hit" : [
+				"spell/trap/trapR"
+			]
 		},
 		"sounds" : {
-		   "cast" : "SpikeAttack2.wav"
+			"cast" : "SpikeAttack2.wav"
 		},
 		"levels" : {
-			"base": {
+			"base" : {
 				"power" : 10,
 				"range" : "0",
 				"description" : "", //For validation
 				"cost" : 0, //For validation
 				"battleEffects" : {
 					"directDamage" : {
-						"type":"core:damage"
+						"type" : "core:damage"
 					}
 				},
-				"targetModifier":{"smart":false}
+				"targetModifier" : {
+					"smart" : false
+				}
 			},
 			"none" : {
 				"power" : 10
@@ -100,11 +105,10 @@
 			}
 		},
 		"flags" : {
-			"damage": true,
-			"negative": true,
-			"special": true
+			"damage" : true,
+			"negative" : true,
+			"special" : true
 		},
-		"targetCondition" : {
-		}
+		"targetCondition" : {}
 	}
 }
